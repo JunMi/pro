@@ -11,7 +11,7 @@ public class IndexController {
     @RequestMapping(value = "/welcome.do", method = RequestMethod.GET)
     public ModelAndView welcome() {
         ModelAndView model = new ModelAndView("welcome");
-        System.out.print("welcome");
+        System.out.println("welcome");
         model.addObject("wmj","芜湖文化");
         return model;
     }

@@ -10,7 +10,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Safira - shop fullwidth list</title>
+    <title>我的项目</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
@@ -70,18 +70,18 @@
                     </div>
                     <div class="language_currency">
                         <ul>
-                            <li class="language"><a href="#"> Language <i class="icon-right ion-ios-arrow-down"></i></a>
+                            <li class="language"><a href="#"> 语言 <i class="icon-right ion-ios-arrow-down"></i></a>
                                 <ul class="dropdown_language">
-                                    <li><a href="#">French</a></li>
-                                    <li><a href="#">Spanish</a></li>
-                                    <li><a href="#">Russian</a></li>
+                                    <li><a href="#">法语</a></li>
+                                    <li><a href="#">英语</a></li>
+                                    <li><a href="#">中文</a></li>
                                 </ul>
                             </li>
-                            <li class="currency"><a href="#"> Currency <i class="icon-right ion-ios-arrow-down"></i></a>
+                            <li class="currency"><a href="#"> 货币 <i class="icon-right ion-ios-arrow-down"></i></a>
                                 <ul class="dropdown_currency">
-                                    <li><a href="#">€ Euro</a></li>
-                                    <li><a href="#">£ Pound Sterling</a></li>
-                                    <li><a href="#">$ US Dollar</a></li>
+                                    <li><a href="#">€ 欧元</a></li>
+                                    <li><a href="#">£ 美元</a></li>
+                                    <li><a href="#">$ 人民币</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -99,8 +99,8 @@
                         <form action="#">
                             <div class="hover_category">
                                 <select class="select_option" name="select" id="categori1">
-                                    <option selected value="1">Select a categories</option>
-                                    <option value="2">Accessories</option>
+                                    <option selected value="1">选择</option>
+                                    <option value="2">配饰</option>
                                     <option value="3">Accessories & More</option>
                                     <option value="4">Butters & Eggs</option>
                                     <option value="5">Camera & Video </option>
@@ -126,9 +126,9 @@
                     <div class="header_account_area">
                         <div class="header_account_list register">
                             <ul>
-                                <li><a href="login.html">Register</a></li>
+                                <li><a href="login.html">注册</a></li>
                                 <li><span>/</span></li>
-                                <li><a href="login.html">Login</a></li>
+                                <li><a href="login.html">登录</a></li>
                             </ul>
                         </div>
                         <div class="header_account_list header_wishlist">
@@ -195,19 +195,19 @@
                     <div id="menu" class="text-left ">
                         <ul class="offcanvas_main_menu">
                             <li class="menu-item-has-children active">
-                                <a href="#">Home</a>
+                                <a href="#">主页</a>
                                 <ul class="sub-menu">
-                                    <li><a href="index.html">Home 1</a></li>
-                                    <li><a href="index-2.html">Home 2</a></li>
-                                    <li><a href="index-3.html">Home 3</a></li>
-                                    <li><a href="index-4.html">Home 4</a></li>
+                                    <li><a href="index.html">主页 1</a></li>
+                                    <li><a href="index-2.html">主页 2</a></li>
+                                    <li><a href="index-3.html">主页 3</a></li>
+                                    <li><a href="index-4.html">主页 4</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="#">Shop</a>
+                                <a href="#">店铺</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item-has-children">
-                                        <a href="#">Shop Layouts</a>
+                                        <a href="#">店铺 布局</a>
                                         <ul class="sub-menu">
                                             <li><a href="shop.html">shop</a></li>
                                             <li><a href="shop-fullwidth.html">Full Width</a></li>
@@ -218,7 +218,7 @@
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="#">other Pages</a>
+                                        <a href="#">其他页面</a>
                                         <ul class="sub-menu">
                                             <li><a href="cart.html">cart</a></li>
                                             <li><a href="wishlist.html">Wishlist</a></li>
@@ -228,7 +228,7 @@
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="#">Product Types</a>
+                                        <a href="#">产品分类</a>
                                         <ul class="sub-menu">
                                             <li><a href="product-details.html">product details</a></li>
                                             <li><a href="product-sidebar.html">product sidebar</a></li>
@@ -239,7 +239,7 @@
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="#">blog</a>
+                                <a href="#">博客</a>
                                 <ul class="sub-menu">
                                     <li><a href="blog.html">blog</a></li>
                                     <li><a href="blog-details.html">blog details</a></li>
