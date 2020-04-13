@@ -13,45 +13,11 @@
     <title>我的项目</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.ico">
-
-    <!-- CSS
-    ========================= -->
-    <!--bootstrap min css-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!--owl carousel min css-->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <!--slick min css-->
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <!--magnific popup min css-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!--font awesome css-->
-    <link rel="stylesheet" href="assets/css/font.awesome.css">
-    <!--ionicons css-->
-    <link rel="stylesheet" href="assets/css/ionicons.min.css">
-    <!--linearicons css-->
-    <link rel="stylesheet" href="assets/css/linearicons.css">
-    <!--animate css-->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!--jquery ui min css-->
-    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
-    <!--slinky menu css-->
-    <link rel="stylesheet" href="assets/css/slinky.menu.css">
-    <!--plugins css-->
-    <link rel="stylesheet" href="assets/css/plugins.css">
-
-    <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!--modernizr min js here-->
-    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
-
+    <jsp:include page="css/basecss.jsp"></jsp:include>
 </head>
 
 <body>
 
-<!--header area start-->
 
 <!--offcanvas menu area start-->
 <div class="off_canvars_overlay">
@@ -70,7 +36,7 @@
                     </div>
                     <div class="language_currency">
                         <ul>
-                            <li class="language"><a href="#"> 语言 <i class="icon-right ion-ios-arrow-down"></i></a>
+                            <li class="language"><a href="javascript:alert(1)"> 语言 <i class="icon-right ion-ios-arrow-down"></i></a>
                                 <ul class="dropdown_language">
                                     <li><a href="#">法语</a></li>
                                     <li><a href="#">英语</a></li>
