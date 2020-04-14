@@ -18,6 +18,7 @@
 
 <body>
 
+<!--header area start-->
 
 <!--offcanvas menu area start-->
 <div class="off_canvars_overlay">
@@ -254,18 +255,18 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="language_currency">
                             <ul>
-                                <li class="language"><a href="#"> Language <i class="icon-right ion-ios-arrow-down"></i></a>
+                                <li class="language"><a href="#"> 语言 <i class="icon-right ion-ios-arrow-down"></i></a>
                                     <ul class="dropdown_language">
-                                        <li><a href="#">French</a></li>
-                                        <li><a href="#">Spanish</a></li>
-                                        <li><a href="#">Russian</a></li>
+                                        <li><a href="#">法语</a></li>
+                                        <li><a href="#">西班牙</a></li>
+                                        <li><a href="#">英语</a></li>
                                     </ul>
                                 </li>
-                                <li class="currency"><a href="#"> Currency <i class="icon-right ion-ios-arrow-down"></i></a>
+                                <li class="currency"><a href="#"> 货币 <i class="icon-right ion-ios-arrow-down"></i></a>
                                     <ul class="dropdown_currency">
-                                        <li><a href="#">€ Euro</a></li>
-                                        <li><a href="#">£ Pound Sterling</a></li>
-                                        <li><a href="#">$ US Dollar</a></li>
+                                        <li><a href="#">€ 欧元</a></li>
+                                        <li><a href="#">£ 瑞郎</a></li>
+                                        <li><a href="#">$ 美元</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -290,7 +291,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            <a href="index.do"><img src="assets/img/logo/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-10">
@@ -304,17 +305,6 @@
                                             <option value="3">Accessories & More</option>
                                             <option value="4">Butters & Eggs</option>
                                             <option value="5">Camera & Video </option>
-                                            <option value="6">Mornitors</option>
-                                            <option value="7">Tablets</option>
-                                            <option value="8">Laptops</option>
-                                            <option value="9">Handbags</option>
-                                            <option value="10">Headphone & Speaker</option>
-                                            <option value="11">Herbs & botanicals</option>
-                                            <option value="12">Vegetables</option>
-                                            <option value="13">Shop</option>
-                                            <option value="14">Laptops & Desktops</option>
-                                            <option value="15">Watchs</option>
-                                            <option value="16">Electronic</option>
                                         </select>
                                     </div>
                                     <div class="search_box">
@@ -613,7 +603,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="breadcrumb_content">
-                    <h3>Shop</h3>
+                    <h3>主图</h3>
                     <ul>
                         <li><a href="index.html">home</a></li>
                         <li>shop</li>
@@ -707,6 +697,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col-12 ">
                         <div class="single_product">
                             <div class="product_thumb">
@@ -753,7 +744,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 ">
+
+                    <%--<div class="col-12 ">
                         <div class="single_product">
                             <div class="product_thumb">
                                 <a class="primary_img" href="product-details.html"><img src="assets/img/product/productbig5.jpg" alt=""></a>
@@ -1217,7 +1209,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>--%>
                 </div>
 
                 <div class="shop_toolbar t_bottom">
